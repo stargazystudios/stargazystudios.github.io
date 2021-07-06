@@ -1,0 +1,251 @@
+	/**** Default Classes ****/
+
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img {
+	vertical-align: top;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Bookmark Link
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bookmark-link, .bookmark-link:visited, .bookmark-link:hover, .bookmark-link:active {
+	text-decoration:	none;
+	color:			inherit;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body, h1, h2, h3, h4, h5, h6 {
+	color:	#FFF;
+}
+
+	/**** Custom Classes ****/
+
+/* Header Banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header-banner {
+	background-image: 	url('http://1.bp.blogspot.com/-AYsgQjReYPg/VRK8ntX0yEI/AAAAAAAAAIY/8aThHBC_tn8/s1600/starfield-banner-blue.jpg');
+	background-size: 	cover;
+	color: 			#FFFFFF;
+	height:			270px;
+}
+
+/* Header Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header-images {
+	max-width:	791px;	/* 11 pixels magically appear */
+	margin-left:	auto;
+	margin-right:	auto;
+	display:	inline-block;
+	vetical-align:	top;
+}
+
+/* First Name
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.first-name {
+	margin-right:	15px;
+	margin-top:	220px;
+}
+
+/* Surname
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.surname {
+	margin-right:	40px;
+	margin-top:	220px;
+}
+
+/* Portrait
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.portrait {
+	margin-top:	90px;
+	margin-bottom:	-90px;
+}
+
+/*Link Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.link-icons {
+	max-width:	40px;
+	display:	inline-block;
+	vertical-align:	top;
+	margin-top:	98px;
+	margin-left:	40px;
+}
+
+/*Link Icon
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.link-icon {
+	margin-bottom:	18px;
+	margin-right:	0px;
+}
+
+/* Job Title
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.job-title {
+	pointer-events:	none;
+}
+
+/* Job Title Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.job-title-text {
+	margin-top:	15px;
+	margin-left:	94px;
+	max-width:	380px;
+	text-align:	right;
+	font-family: 	"Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+
+/* Introduction Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.intro-text {
+	margin-top:	10px;
+}
+
+/* Section Block
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section-block {
+	margin-bottom:	40px;
+}
+
+/* Section Header Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section-header-text{
+	color:	#FFF;
+}
+
+/* Games Intro Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.games-intro-text {
+	padding-bottom:	25px;
+}
+
+/* Game Heading
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.game-heading{
+	margin-top:	20px;
+}
+
+/* Game Image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.game-image {
+	padding-bottom:	0px;
+}
+
+/* CV indented text block
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cv-text-indent{
+	margin-left:	40px;
+}
+
+/* CV company name
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cv-company-name,.cv-job-title{
+	margin-bottom:	0px;
+}
+
+/* Text Link
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.text-link{
+	font-family: 		"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:		20px;
+}
+
+.text-center{
+	text-align:		center;
+}
+
+.text-link-a{
+	text-decoration: 	none;
+	color:			#FFF;
+}
+
+	/**** Media Queries ****/
+	
+/* When link icons get kicked off the header image row */
+@media all and (max-width: 1110px) {
+
+.link-icons {
+	margin-top:	107px;
+	margin-left:	200px;
+	display:	block;
+	max-width:	296px;
+}
+
+.link-icon {
+	margin-right:	16px;
+	margin-top:	0px;
+}
+
+.intro-text {
+	margin-top:	62px;
+}
+
+}
+
+/* When portrait image gets kicked off the header image row */
+@media all and (max-width: 1004px) {
+.portrait {
+	margin-top:	110px;
+	margin-bottom:	0px;
+}
+
+.first-name {
+	margin-top:	40px;
+}
+
+.surname {
+	margin-top:	40px;
+}
+
+.job-title-text {
+	margin-left:	0px;
+	margin-right:	auto;
+	margin-top:	-180px;
+	text-align:	left;	
+}
+
+.link-icons {
+	margin-top:	25px;
+	margin-left:	0px;
+	display:	block;
+	max-width:	296px;
+}
+
+.intro-text {
+	margin-top:	367px;
+	margin-right:	auto;
+}
+
+}
+
+/* When surname image gets kicked off the header image row */
+@media all and (max-width: 660px) {
+
+.surname {
+	margin-right:	60px;
+	margin-top:	15px;
+}
+
+.job-title-text {
+	margin-top:	-122px;
+}
+
+}
+
+/* When title text gets resized and game images get kicked off their rows */
+@media all and (max-width: 549px) {
+
+.portrait {
+	margin-top:	95px;
+	margin-bottom:	0px;
+}
+
+.game-image {
+	padding-bottom:	25px;
+}
+
+}
