@@ -2,10 +2,10 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="https://1.bp.blogspot.com/-Fjr9-1_MpOo/YKKVJsCoGMI/AAAAAAAAMFY/eIGMAGVI6QAYmMN8_5VXXJ8njXPoqoQswCLcBGAsYHQ/s128/mstile-70x70.png"/>
-      <square150x150logo src="https://1.bp.blogspot.com/-M_ESIliunXg/YKKVJMstMmI/AAAAAAAAMFQ/Ws4KXQd5_dwQKxZ4Shdt8O8k4BFip6YfACLcBGAsYHQ/s270/mstile-150x150.png"/>
-      <square310x310logo src="https://1.bp.blogspot.com/-h64MaEHRtx4/YKKVJRYgkwI/AAAAAAAAMFU/t21YVMpafDgKb_ApPd2lqu6Q5y8PmyQrACLcBGAsYHQ/s558/mstile-310x310.png"/>
-      <wide310x150logo src="https://1.bp.blogspot.com/-YwWo6YK8-Po/YKKVJEN49RI/AAAAAAAAMFM/RBmIp9K_58sxfy51ui2NNfrdJ7Wm8xh0QCLcBGAsYHQ/s558/mstile-310x150.png"/>
+      <square70x70logo src="https://www.stargazystudios.com/images/icons/mstile-70x70.png"/>
+      <square150x150logo src="https://www.stargazystudios.com/images/icons/mstile-150x150.png"/>
+      <square310x310logo src="https://www.stargazystudios.com/images/icons/mstile-310x310.png"/>
+      <wide310x150logo src="https://www.stargazystudios.com/images/icons/mstile-310x150.png"/>
       <TileColor>#00aba9</TileColor>
     </tile>
   </msapplication>
